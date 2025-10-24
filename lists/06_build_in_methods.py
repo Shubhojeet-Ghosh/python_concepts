@@ -20,9 +20,12 @@ print(f"Reversed List : {L}")
 
 # count occurrences (O(n))
 c = L.count(1)       # 2
+print(f"Count of 1 in L : {c}")
 
 # index to find first occurrence (O(n))
 i = L.index(3)       # index of value 3
+print(f"The index of the first occurrence of 3 : {i}")
 
 # copy (shallow)
 copy = L.copy()      # new list; inner objects referenced
+print(f"Shallow Copy of the List : {copy}")
